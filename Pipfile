@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+seaborn = "*"
+pandas = "*"
+nengo = "*"
+nengo-spa = "*"
+nengolib = "*"
+jupyter = "*"
+jupyterlab = "*"
+nengo-extras = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
